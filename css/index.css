@@ -1,4 +1,4 @@
-body {
+.body {
     min-height: 100vh;
     margin: 0;
     background-image: url(../img/react-system.webp);
@@ -11,7 +11,7 @@ body {
     justify-content: center;
 }
 
-main {
+.card {
     max-width: 512px;
     padding: 16px;
     margin: 0;
@@ -22,22 +22,22 @@ main {
     align-items: center;
     gap: 12px;
 }
-img {
+.img {
     display: block;
     border-radius: 50%;
 }
 
-h1,
-h2,
-p {
+.card_tittle,
+.card_subtitle,
+.card_text {
     margin: 0;
     text-align: center;
 }
-h2 {
+.card_subtitle {
     font-size: 14px;
 }
 
-ul {
+.list {
     padding: 0;
     margin: 0;
     display: flex;
@@ -45,6 +45,6 @@ ul {
     list-style: none;
 }
 
-a {
+.link {
     color: white;
 }
